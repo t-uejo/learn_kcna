@@ -92,7 +92,27 @@
 - Kubernetesがコンテナを管理し、実行するためのインターフェースを提供
 - これらは同じでインターフェースを提供するのみか
 
+## コンポーネント一覧
+- コントロールプレーンコンポーネント
+    - kube-apiserver
+    - etcd
+    - kube-scheduler
+    - kube-controller-manager
+    - cloud-controller-manager
+- ノードコンポーネント
+    - kubelet
+    - kube-proxy
+- https://kubernetes.io/ja/docs/concepts/overview/components/
 
+## RBAC
+- https://kubernetes.io/ja/docs/reference/access-authn-authz/rbac/
+
+## Linuxのコントロールグループ（cgroups）
+- コンテナプロセスを分離し、それらをホスト上の他のプロセスから切り離します。これにより、コンテナは他のコンテナやホストシステムに影響を与えることなく、リソースの利用を管理できます。
+- https://qiita.com/TK_Yudai/items/3c7d22fb6a6e7d90f622
+
+## サービスメッシュの主要コンポーネント
+- コントロールプレーンとデータプレーンがあります。コントロールプレーンはサービスの構成やルーティングを管理し、データプレーンは実際のトラフィックのルーティングと通信を処理します。
 
 ---
 # 演習テスト４
