@@ -12,16 +12,20 @@ Created: 2025-06-21
 - 以下となっただけ。ContainerdがCRIランタイムだったのでこれで良いと。
 	![[Pasted image 20250621140832.png]]
 
-## CRIランタイム
+## 階層構造での理解
+
+### 上位層: Kubernetes API
+- kubectl → kubelet
+
+### 中間層: CRI (Container Runtime Interface)
 - KubernatesのkubeletがCRIを用いてコンテナランタイムに対して命令を実行する。
 - ランタイムには、ContainerdとCRI-Oがある。
 
-## 
-## OCIランタイム
-- OCIランタイムはLinuxのシステムコールであるnamesapceとcgroupを用いて実際のコンテナ(ホスト上で隔離されたプロセス)を作成、削除する役割
-- runCやgVisor
+### 下位層: OCI (Open Container Initiative)
+- OCIランタイムはLinuxのシステムコールであるnamesapceとcgroupを用いて実際のコンテナ(ホスト上で隔離されたプロセス)を作成、削除する役割があると。
+- runCやgVisorが実装である。
 
-## 全体像
+## 全体像はこんな感じ
 ![[Pasted image 20250621140126.png]]
 
 ## 参考記事
