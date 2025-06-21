@@ -6,13 +6,17 @@ tags:
   - OCI
 Created: 2025-06-21
 ---
-## なぜDockerは非推奨となったのか？
+## Dockerが非推奨となった理由
 - DockerはCRIをサポートしていないから。
+	![[Pasted image 20250621140810.png]]
+- 以下となっただけ。ContainerdがCRIランタイムだったのでこれで良いと。
+	![[Pasted image 20250621140832.png]]
 
 ## CRIランタイム
 - KubernatesのkubeletがCRIを用いてコンテナランタイムに対して命令を実行する。
 - ランタイムには、ContainerdとCRI-Oがある。
 
+## 
 ## OCIランタイム
 - OCIランタイムはLinuxのシステムコールであるnamesapceとcgroupを用いて実際のコンテナ(ホスト上で隔離されたプロセス)を作成、削除する役割
 - runCやgVisor
