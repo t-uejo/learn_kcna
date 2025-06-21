@@ -142,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "（1周目）模擬試験問題集（5回分300問）.md",
+                "file": "log/（1周目ログ）認定Kubernetesクラウドネイティブアソシエイト模擬試験問題集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "（1周目）模擬試験問題集（5回分300問）のアウトライン"
+              "title": "（1周目ログ）認定Kubernetesクラウドネイティブアソシエイト模擬試験問題集のアウトライン"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa8d5bba1ca84330",
+  "active": "bf855cccd7810470",
   "lastOpenFiles": [
     "question/（1周目）模擬問題集.md",
     "log/（1周目ログ）認定Kubernetesクラウドネイティブアソシエイト模擬試験問題集.md",
