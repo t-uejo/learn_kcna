@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/無題のファイル.md",
+                "file": "note/Docker vs Containered.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "Docker vs Containered"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/無題のファイル.md",
+                "file": "note/Docker vs Containered.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "無題のファイルへのバックリンク"
+              "title": "Docker vs Containeredへのバックリンク"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/無題のファイル.md",
+                "file": "note/Docker vs Containered.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "無題のファイルのアウトライン"
+              "title": "Docker vs Containeredのアウトライン"
             }
           }
         ],
@@ -172,7 +172,7 @@
   "active": "aa8d5bba1ca84330",
   "lastOpenFiles": [
     "log/（1周目ログ）認定Kubernetesクラウドネイティブアソシエイト模擬試験問題集.md",
-    "note/無題のファイル.md",
+    "note/Docker vs Containered.md",
     "question/（1周目）模擬問題集.md",
     "question",
     "note",
