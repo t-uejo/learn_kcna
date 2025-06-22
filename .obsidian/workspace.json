@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/（深掘り）ReplicationControllerとReplicaSetの違いとは？.md",
+                "file": "log/（1周目）CKADコース.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "（深掘り）ReplicationControllerとReplicaSetの違いとは？"
+              "title": "（1周目）CKADコース"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/（深掘り）ReplicationControllerとReplicaSetの違いとは？.md",
+                "file": "log/（1周目）CKADコース.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "（深掘り）ReplicationControllerとReplicaSetの違いとは？へのバックリンク"
+              "title": "（1周目）CKADコースへのバックリンク"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/（深掘り）ReplicationControllerとReplicaSetの違いとは？.md",
+                "file": "log/（1周目）CKADコース.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "（深掘り）ReplicationControllerとReplicaSetの違いとは？のアウトライン"
+              "title": "（1周目）CKADコースのアウトライン"
             }
           }
         ],
@@ -172,13 +172,14 @@
   },
   "active": "aa8d5bba1ca84330",
   "lastOpenFiles": [
-    "note/（深堀り）CRI、OCI、Containerd、Dockerの違いとは？.md",
-    "note/（深掘り）ReplicationControllerとReplicaSetの違いとは？.md",
-    "Pasted image 20250621140832.png",
-    "Pasted image 20250621140810.png",
-    "Pasted image 20250621140126.png",
-    "question/（1周目）模擬問題集.md",
     "log/（1周目ログ）認定Kubernetesクラウドネイティブアソシエイト模擬試験問題集.md",
+    "log/（1周目）CKADコース.md",
+    "question/（1周目）模擬問題集.md",
+    "image/Pasted image 20250621140126.png",
+    "note/（深掘り）ReplicationControllerとReplicaSetの違いとは？.md",
+    "note/（深堀り）CRI、OCI、Containerd、Dockerの違いとは？.md",
+    "image/Pasted image 20250621140832.png",
+    "image/Pasted image 20250621140810.png",
     "question",
     "note",
     "log",
