@@ -10,4 +10,5 @@
 ## 試験のコツ
 - kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx-pod.yaml
 - これを使うことでさくっとyamlファイルを出力させることができる。
+- --dty-runがないとリソースが作成されてしまうので注意する。
 
